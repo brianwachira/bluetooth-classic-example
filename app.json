@@ -15,7 +15,13 @@
 			"adaptiveIcon": {
 				"foregroundImage": "./assets/images/adaptive-icon.png",
 				"backgroundColor": "#ffffff"
-			}
+			},
+			"permissions": [
+				"android.permission.BLUETOOTH",
+				"android.permission.BLUETOOTH_CONNECT",
+				"android.permission.BLUETOOTH_ADVERTISE",
+				"android.permission.BLUETOOTH_SCAN"
+			]
 		},
 		"web": {
 			"bundler": "metro",
